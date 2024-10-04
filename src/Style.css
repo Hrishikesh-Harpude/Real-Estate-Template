@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans", Arial, sans-serif'
+}
+.main{
+    background-image: url("../public/images/background/bg_1.jpg");
+    /* height: 650px; */
+    background-size: cover;
+    width: 100%;
+    
+}
+.text{
+    margin-top: 200px;
+    color: black;
+    
+}
+.section2{
+    margin-top: 40px;
+    /* text-align: center; */
+}
+.img-radius{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.section3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* text-align: center; */
+}
+.text-pro{
+    margin-bottom: 30px;
+}
+.cities{
+    margin-bottom: 50px;
+}
+.work_flow{
+    background-color: #0f101c;
+    width: 100%;
+    /* height: 500px; */
+   
+}
+.div1{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid white; */
+    margin-bottom: 60px;
+}
+.div1 img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    
+}
+.text-area{
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans", Arial, sans-serif';
+}
+/* .div-img{
+    background-image: url("../src/images/illustration/blob.svg");
+} */
+ .con-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+ }
+ .footer-section{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+ }
+ .footer-section div{
+    padding-top: 18px;
+ }
+ @media screen and (min-width: 1200px){
+    .main{
+        background-image: url("../public/images/background/bg_1.jpg");
+        height: 650px;
+        background-size: cover;
+        width: 100%;
+        color: black;
+    }
+
+ }
+ 
